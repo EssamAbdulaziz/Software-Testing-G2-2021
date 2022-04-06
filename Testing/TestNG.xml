@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "seleniumTest">
+    <test name="chromeTest">
+        <parameter name= "browser" value="Chrome"/>
+        <classes>
+            <class name ="tests.LoginTestWithDataDriven">
+<!--                <methods>-->
+<!--                    <include name="Login">-->
+<!--                    </include>-->
+<!--                </methods> !!! Dont use methods unless you want to specify 1 specific test case inside the class!!-->
+            </class>
+        </classes>
+    </test>
+</suite>
